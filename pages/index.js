@@ -13,40 +13,40 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Norman Teodoro
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Web Developer / Lover{' '}
+          {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="#" className={styles.card}>
+            <h2>Projects &rarr;</h2>
+            <p>My projects goe  here</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="#" className={styles.card}>
+            <h2>Skills &rarr;</h2>
+            <p>My skills go here</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Links &rarr;</h2>
+            <p>Github linked in</p>
+          </a>
+
+          <a
+            href="#"
+            className={styles.card}
+          >
+            <h2>Resumé &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Download my resumé
             </p>
           </a>
         </div>
