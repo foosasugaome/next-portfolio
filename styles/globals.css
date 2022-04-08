@@ -10,7 +10,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+p {
+  color:orangered;
+}
 * {
   box-sizing: border-box;
 }
