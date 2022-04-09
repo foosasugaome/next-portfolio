@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <h2>Projects &rarr;</h2>
-            <p>My projects goe  here</p>
+            <p><a href='https://expressfinance.herokuapp.com/'>Express Finance</a></p>
           </a>
 
           <a href="#" className={styles.card}>
