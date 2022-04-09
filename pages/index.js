@@ -46,7 +46,7 @@ export default function Home() {
           >
             <h2>Resumé &rarr;</h2>
             <p>
-              Download my resumé
+              Download my résumé
             </p>
           </a>
         </div>
