@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Norman Teodoro
         </h1>
-
+        
         <p className={styles.description}>
           Web Developer{' '}
           {/* <code className={styles.code}>pages/index.js</code> */}
@@ -24,7 +24,10 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <h2>Projects &rarr;</h2>
+            <p><a href='https://foosasugaome.github.io/candy_hunt/'>Arcade Game</a></p>
             <p><a href='https://expressfinance.herokuapp.com/'>Express Finance</a></p>
+            <p><a href='https://preeminent-cobbler-237db0.netlify.app/'>KAT Inventory</a></p>
+            <p><a href='https://boisterous-crostata-b66bd1.netlify.app/'>Looking for Group</a></p>
           </a>
 
           <a href="#" className={styles.card}>
@@ -55,18 +58,18 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Links &rarr;</h2>
-            <p>Github | LinkedIn</p>
+            <p><a href='https://github.com/foosasugaome'>Github</a> | <a href='https://www.linkedin.com/in/normanteodoro/'>LinkedIn</a></p>
           </a>
 
-          <a
+          {/* <a
             href="#"
             className={styles.card}
           >
-            <h2>Resumé &rarr;</h2>
+            <h2>Résumé &rarr;</h2>
             <p>
               Download my résumé
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
