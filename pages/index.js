@@ -18,6 +18,7 @@ export default function Home () {
           Full Stack Web Developer{' '}
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
+        
         <a href="#nav"><span><h2>Projects</h2></span></a>
         <div className={styles.expandable} id='nav'>
           <a href='#' className={styles.card}>
@@ -44,6 +45,7 @@ export default function Home () {
             </p>
           </a>
           </div>
+          
           <a href="#nav2"><span><h2>Skills</h2></span></a>
           <div className={styles.expandable} id='nav2'>
           <a href='#' className={styles.card}>
@@ -208,6 +210,7 @@ export default function Home () {
             </p>
           </a>
           </div>
+          
           <a href="#nav3"><span><h2>Socials</h2></span></a>
           <div className={styles.expandable} id='nav3'>
           <a href='#' className={styles.card}>
@@ -217,20 +220,23 @@ export default function Home () {
               <a href='https://www.linkedin.com/in/normanteodoro/'>LinkedIn</a>
             </p>
           </a>
-
-          {/* <a
+          </div>
+          
+          <a href="#nav4"><span><h2>Résumé</h2></span></a>
+          <div className={styles.expandable} id='nav4'>
+          <a
             href="#"
             className={styles.card}
           >
-            <h2>Résumé &rarr;</h2>
+            
             <p>
               Download my résumé
             </p>
-          </a> */}
-        </div>
+          </a>          
+          </div>
       </main>
 
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -241,7 +247,7 @@ export default function Home () {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer> */}
+      </footer>
     </div>
   )
 }
