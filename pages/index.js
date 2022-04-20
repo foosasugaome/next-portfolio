@@ -18,8 +18,12 @@ export default function Home () {
           Full Stack Web Developer{' '}
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
-        
-        <a href="#nav"><span><h2>Projects</h2></span></a>
+
+        <a href='#nav'>
+          <span>
+            <h2>Projects</h2>
+          </span>
+        </a>
         <div className={styles.expandable} id='nav'>
           <a href='#' className={styles.card}>
             {/* <h2>Projects &rarr;</h2> */}
@@ -44,10 +48,14 @@ export default function Home () {
               </a>
             </p>
           </a>
-          </div>
-          
-          <a href="#nav2"><span><h2>Skills</h2></span></a>
-          <div className={styles.expandable} id='nav2'>
+        </div>
+
+        <a href='#nav2'>
+          <span>
+            <h2>Skills</h2>
+          </span>
+        </a>
+        <div className={styles.expandable} id='nav2'>
           <a href='#' className={styles.card}>
             {/* <h2>Skills &rarr;</h2> */}
             <p align='left'>
@@ -209,42 +217,47 @@ export default function Home () {
               </a>
             </p>
           </a>
-          </div>
-          
-          <a href="#nav3"><span><h2>Socials</h2></span></a>
-          <div className={styles.expandable} id='nav3'>
+        </div>
+
+        <a href='#nav3'>
+          <span>
+            <h2>Socials</h2>
+          </span>
+        </a>
+        <div className={styles.expandable} id='nav3'>
           <a href='#' className={styles.card}>
             {/* <h2>Links &rarr;</h2> */}
             <p>
-              <a href='https://github.com/foosasugaome'>Github</a> |{' '}
-              <a href='https://www.linkedin.com/in/normanteodoro/'>LinkedIn</a>
+              <a href='https://github.com/foosasugaome' target='_blank'
+                rel='noreferrer'>Github</a> |{' '}
+              <a href='https://www.linkedin.com/in/normanteodoro/' target='_blank'
+                rel='noreferrer'>LinkedIn</a>
             </p>
           </a>
-          </div>
-          
-          <a href="#nav4"><span><h2>Résumé</h2></span></a>
-          <div className={styles.expandable} id='nav4'>
-          <a
-            href="#"
-            className={styles.card}
-          >
-            
-            <p>
-              Download my résumé
-            </p>
-          </a>          
-          </div>
+        </div>
+
+        <a href='#nav4'>
+          <span>
+            <h2>Résumé</h2>
+          </span>
+        </a>
+        <div className={styles.expandable} id='nav4'>
+          <a href='https://docs.google.com/document/d/1vuCw1H6KEAeg8AzxdtXq8df65u625-mYbxSJ8BKHcqI/edit?usp=sharing' className={styles.card} target='_blank'
+                rel='noreferrer'>
+            <p>Download my résumé</p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
           </span>
         </a>
       </footer>
